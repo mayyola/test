@@ -137,3 +137,4 @@ C:\Users\user\source\repos\MySerene3\MySerene3\MySerene3.Web\obj\Debug\net6.0\re
 C:\Users\user\source\repos\MySerene3\MySerene3\MySerene3.Web\obj\Debug\net6.0\MySerene3.Web.pdb
 C:\Users\user\source\repos\MySerene3\MySerene3\MySerene3.Web\obj\Debug\net6.0\MySerene3.Web.genruntimeconfig.cache
 C:\Users\user\source\repos\MySerene3\MySerene3\MySerene3.Web\obj\Debug\net6.0\ref\MySerene3.Web.dll
+C:\Users\user\source\repos\MySerene3\MySerene3\MySerene3.Web\obj\Debug\net6.0\MySerene3.Web.sourcelink.json
