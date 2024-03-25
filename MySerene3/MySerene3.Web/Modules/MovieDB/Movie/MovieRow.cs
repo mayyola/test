@@ -13,6 +13,7 @@ namespace MySerene3.MovieDB;
 [ServiceLookupPermission("Administration:General")]
 public sealed class MovieRow : Row<MovieRow.RowFields>, IIdRow, INameRow
 {
+    const string jGenre = nameof(jGenre);
     [DisplayName("Movie Id"), Identity, IdProperty]
     public int? MovieId { get => fields.MovieId[this]; set => fields.MovieId[this] = value; }
 
@@ -33,7 +34,16 @@ public sealed class MovieRow : Row<MovieRow.RowFields>, IIdRow, INameRow
 
     [DisplayName("Runtime (mins)")]
     public int? Runtime { get => fields.Runtime[this]; set => fields.Runtime[this] = value; }
+    [DisplayName("Kind"), NotNull, DefaultValue(MovieKind.Film)]
+    public MovieKind? Kind { get => fields.Kind[this]; set => fields.Kind[this] = value; }
 
+    //[LookupEditor(typeof(GenreRow), InplaceAdd = true, DialogType = "MovieDB.Genre")]
+    [DisplayName("Genre"), ForeignKey(typeof(GenreRow)), LeftJoin(jGenre)]
+    [LookupEditor(typeof(GenreRow), InplaceAdd = true, DialogType = "MovieDB.Genre")] //過濾搜尋下拉式表單
+    public int? GenreId { get => fields.GenreId[this]; set => fields.GenreId[this] = value; }
+
+    [DisplayName("Genre"), Origin(jGenre, nameof(GenreRow.Name))]
+    public string GenreName { get => fields.GenreName[this]; set => fields.GenreName[this] = value; }
     public class RowFields : RowFieldsBase
     {
         public Int32Field MovieId;
@@ -43,6 +53,8 @@ public sealed class MovieRow : Row<MovieRow.RowFields>, IIdRow, INameRow
         public Int32Field Year;
         public DateTimeField ReleaseDate;
         public Int32Field Runtime;
-
+        public EnumField<MovieKind> Kind;
+        public Int32Field GenreId;
+        public StringField GenreName;
     }
 }

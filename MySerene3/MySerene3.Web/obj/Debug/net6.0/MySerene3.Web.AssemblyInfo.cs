@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MySerene3.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43cb10be1eaf04905234330690d403dd2e706617")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ffe7bee9b438f74585cd38e3d5afd2cba0142df")]
 [assembly: System.Reflection.AssemblyProductAttribute("MySerene3.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MySerene3.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

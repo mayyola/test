@@ -77,8 +77,16 @@ namespace MySerene3.Texts {
 
         namespace MovieDB {
 
+            namespace Genre {
+                export const GenreId: string;
+                export const Name: string;
+            }
+
             namespace Movie {
                 export const Description: string;
+                export const GenreId: string;
+                export const GenreName: string;
+                export const Kind: string;
                 export const MovieId: string;
                 export const ReleaseDate: string;
                 export const Runtime: string;
@@ -195,6 +203,7 @@ namespace MySerene3.Texts {
                 UserRole: {}
             },
             MovieDB: {
+                Genre: {},
                 Movie: {}
             }
         },

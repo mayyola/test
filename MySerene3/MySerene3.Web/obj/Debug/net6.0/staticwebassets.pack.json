@@ -473,6 +473,14 @@
       "PackagePath": "staticwebassets\\esm\\Modules\\Membership\\Account\\SignUp\\SignUpPage.js.map"
     },
     {
+      "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\Modules\\MovieDB\\Genre\\GenrePage.js",
+      "PackagePath": "staticwebassets\\esm\\Modules\\MovieDB\\Genre\\GenrePage.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\Modules\\MovieDB\\Genre\\GenrePage.js.map",
+      "PackagePath": "staticwebassets\\esm\\Modules\\MovieDB\\Genre\\GenrePage.js.map"
+    },
+    {
       "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\Modules\\MovieDB\\Movie\\MoviePage.js",
       "PackagePath": "staticwebassets\\esm\\Modules\\MovieDB\\Movie\\MoviePage.js"
     },
@@ -489,20 +497,28 @@
       "PackagePath": "staticwebassets\\esm\\_chunks\\chunk-CFICWFWM.js.map"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\_chunks\\chunk-F2TGSBEW.js",
-      "PackagePath": "staticwebassets\\esm\\_chunks\\chunk-F2TGSBEW.js"
+      "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\_chunks\\chunk-GBJYDT6Z.js",
+      "PackagePath": "staticwebassets\\esm\\_chunks\\chunk-GBJYDT6Z.js"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\_chunks\\chunk-F2TGSBEW.js.map",
-      "PackagePath": "staticwebassets\\esm\\_chunks\\chunk-F2TGSBEW.js.map"
+      "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\_chunks\\chunk-GBJYDT6Z.js.map",
+      "PackagePath": "staticwebassets\\esm\\_chunks\\chunk-GBJYDT6Z.js.map"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\_chunks\\chunk-GBOZSMSH.js",
-      "PackagePath": "staticwebassets\\esm\\_chunks\\chunk-GBOZSMSH.js"
+      "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\_chunks\\chunk-NLGO4LFS.js",
+      "PackagePath": "staticwebassets\\esm\\_chunks\\chunk-NLGO4LFS.js"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\_chunks\\chunk-GBOZSMSH.js.map",
-      "PackagePath": "staticwebassets\\esm\\_chunks\\chunk-GBOZSMSH.js.map"
+      "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\_chunks\\chunk-NLGO4LFS.js.map",
+      "PackagePath": "staticwebassets\\esm\\_chunks\\chunk-NLGO4LFS.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\_chunks\\chunk-S4NCQTPU.js",
+      "PackagePath": "staticwebassets\\esm\\_chunks\\chunk-S4NCQTPU.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\_chunks\\chunk-S4NCQTPU.js.map",
+      "PackagePath": "staticwebassets\\esm\\_chunks\\chunk-S4NCQTPU.js.map"
     },
     {
       "Id": "C:\\Users\\user\\source\\repos\\MySerene3\\MySerene3\\MySerene3.Web\\wwwroot\\esm\\_chunks\\chunk-X5TI45UG.js",
